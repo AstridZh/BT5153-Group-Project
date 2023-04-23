@@ -1,8 +1,6 @@
 "# BT5153-Group-Project" 
 
-Dataset
-  
-  Surface Crack Detection from Kaggle - https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
+Dataset - Surface Crack Detection from Kaggle (https://www.kaggle.com/datasets/arunrk7/surface-crack-detection)
  
 
 Preprocessing
@@ -19,8 +17,8 @@ Machine Learning Models
   5. Model comparison
   6. Hyperparameter tuning - OPTUNA, performance evaluation, final model comparison
       
-      parameters = learning_rate, weight_decay, num_epochs, batch_size
-      objective = val_loss
+      parameters = [learning_rate, weight_decay, num_epochs, batch_size],
+      objective = val_loss,
       direction = 'minimize'
 
 
